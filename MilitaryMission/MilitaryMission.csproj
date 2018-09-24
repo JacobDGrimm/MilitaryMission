@@ -42,8 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helicopter.cs" />
+    <Compile Include="Infantry.cs" />
+    <Compile Include="Jeep.cs" />
+    <Compile Include="Medic.cs" />
+    <Compile Include="Missle.cs" />
+    <Compile Include="Personell.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rifle.cs" />
+    <Compile Include="Tank.cs" />
+    <Compile Include="Vehicle.cs" />
+    <Compile Include="Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
