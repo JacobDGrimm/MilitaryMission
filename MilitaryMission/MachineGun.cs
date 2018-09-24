@@ -17,5 +17,10 @@ namespace MilitaryMission
             }
            
         }
+        public override void Load()
+        {
+            Console.WriteLine("The belt of ammo is placed on the feed tray");
+            base.Load();
+        }
     }
 }

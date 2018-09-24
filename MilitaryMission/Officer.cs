@@ -12,5 +12,9 @@ namespace MilitaryMission
         {
             base.Salute();
         }
+        public void Command()
+        {
+            Console.WriteLine("Get to work men!");
+        }
     }
 }

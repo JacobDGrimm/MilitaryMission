@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MilitaryMission
 {
-    class Missle : Explosive
+    class Cannon : Explosive
     {
         public override void Fire()
         {
@@ -15,8 +15,9 @@ namespace MilitaryMission
         }
         public override void Load()
         {
-            Console.WriteLine("The missle sits in its rack ready to fire");
+            Console.WriteLine("The heavy cannon shell is loaded into the breach");
             base.Load();
         }
+       
     }
 }

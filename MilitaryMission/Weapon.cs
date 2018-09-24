@@ -10,7 +10,11 @@ namespace MilitaryMission
     {
         public virtual void Fire()
         {
-
+            Console.WriteLine("Bang!");
+        }
+        public virtual void Load()
+        {
+            Console.WriteLine("You are now loaded and ready to fire.");
         }
     }
 }
