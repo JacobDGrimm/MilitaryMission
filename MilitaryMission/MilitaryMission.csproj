@@ -45,6 +45,7 @@
     <Compile Include="Helicopter.cs" />
     <Compile Include="Infantry.cs" />
     <Compile Include="Jeep.cs" />
+    <Compile Include="MachineGun.cs" />
     <Compile Include="Medic.cs" />
     <Compile Include="Missle.cs" />
     <Compile Include="Personell.cs" />

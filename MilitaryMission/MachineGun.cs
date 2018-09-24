@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace MilitaryMission
 {
-    class Missle : Weapon
+    class MachineGun : Weapon
     {
+        int RateOfFire = 10;
         public override void Fire()
         {
-            base.Fire();
-            Explode();
-        }
-        public void Explode()
-        {
-
+            for (int i = 0; i < RateOfFire; i++)
+            {
+                base.Fire()
+            }
+           ;
         }
     }
 }

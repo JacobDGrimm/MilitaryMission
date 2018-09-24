@@ -10,7 +10,10 @@ namespace MilitaryMission
     {
         public void Drive()
         {
-
+            public override void Mount()
+        {
+            base.Mount();
         }
+    }
     }
 }

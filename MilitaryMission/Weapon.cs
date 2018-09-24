@@ -8,7 +8,7 @@ namespace MilitaryMission
 {
     class Weapon
     {
-        public void Fire()
+        public virtual void Fire()
         {
 
         }

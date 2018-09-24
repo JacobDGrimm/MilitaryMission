@@ -8,7 +8,7 @@ namespace MilitaryMission
 {
     class Rifle: Weapon
     {
-        public void Shoot()
+        public override void Fire()
         {
             
         }

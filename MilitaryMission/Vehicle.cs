@@ -8,7 +8,7 @@ namespace MilitaryMission
 {
     class Vehicle
     {
-        public void Mount()
+        public virtual void Mount()
         {
 
         }

@@ -12,5 +12,10 @@ namespace MilitaryMission
         {
 
         }
+
+        public override void Mount()
+        {
+            base.Mount();
+        }
     }
 }
