@@ -10,6 +10,7 @@ namespace MilitaryMission
     {
         public override void Salute()
         {
+            Console.WriteLine("The soldier snaps to obey");
             base.Salute();
         }
     }

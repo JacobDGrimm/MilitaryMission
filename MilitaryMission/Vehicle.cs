@@ -10,7 +10,11 @@ namespace MilitaryMission
     {
         public virtual void Mount()
         {
-
+            Console.WriteLine("The driver climbs aboard");
+        }
+        public virtual void Shoot()
+        {
+            Console.WriteLine("The gunner fires his weapon!");
         }
     }
 }

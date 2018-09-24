@@ -8,6 +8,7 @@ namespace MilitaryMission
 {
     class Cannon : Explosive
     {
+       
         public override void Fire()
         {
             base.Fire();
