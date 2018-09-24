@@ -8,13 +8,20 @@ namespace MilitaryMission
 {
     class Tank : Vehicle
     {
+        Weapon Cannon = new Cannon();
         public override void Mount()
         {
             base.Mount();
         }
-        public void Shoot()
+        public override void Shoot()
         {
-
+            base.Shoot();
+            Cannon.Fire();
+        }
+        public override void Load()
+        {
+            base.Load();
+            Cannon.Load();
         }
     }
 }

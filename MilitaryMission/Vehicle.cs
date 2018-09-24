@@ -16,5 +16,9 @@ namespace MilitaryMission
         {
             Console.WriteLine("The gunner fires his weapon!");
         }
+        public virtual void Load()
+        {
+            Console.WriteLine("The gunner gets his weapon ready.");
+        }
     }
 }

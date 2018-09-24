@@ -16,14 +16,19 @@ namespace MilitaryMission
 
         public override void Shoot()
         {
-            Hellfire.Fire();
             base.Shoot();
+            Hellfire.Fire();
         }
 
         public override void Mount()
         {
             base.Mount();
             Console.WriteLine("The driver starts up all the doo dads and gizmos to take off");
+        }
+        public override void Load()
+        {
+            base.Load();
+            Hellfire.Load();
         }
     }
 }
