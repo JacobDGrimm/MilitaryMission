@@ -8,6 +8,10 @@ namespace MilitaryMission
 {
     class Tank : Vehicle
     {
+        public override void Mount()
+        {
+            base.Mount();
+        }
         public void Shoot()
         {
 

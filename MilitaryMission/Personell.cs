@@ -17,5 +17,9 @@ namespace MilitaryMission
         {
 
         }
+        public virtual void Salute()
+        {
+
+        }
     }
 }

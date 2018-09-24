@@ -13,9 +13,9 @@ namespace MilitaryMission
         {
             for (int i = 0; i < RateOfFire; i++)
             {
-                base.Fire()
+                base.Fire();
             }
-           ;
+           
         }
     }
 }

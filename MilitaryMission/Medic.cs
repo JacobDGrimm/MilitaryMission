@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MilitaryMission
 {
-    class Medic : Personell
+    class Medic : Enlisted
     {
         public void Heal()
         {

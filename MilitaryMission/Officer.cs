@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace MilitaryMission
 {
-    class Infantry : Enlisted
+    class Officer : Personell
     {
-
+        public override void Salute()
+        {
+            base.Salute();
+        }
     }
 }
